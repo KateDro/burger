@@ -63,9 +63,10 @@
 .menu__item {
   border: solid 1px red;
   height: 150px;
-  margin-right: 20px;
 }
-
+.menu__item:not(:last-child) {
+  margin-right: 50px;
+}
 .contact {
   display: flex;
   align-items: center;
