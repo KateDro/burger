@@ -57,12 +57,16 @@
 
 .menu__list {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .menu__item {
   border: solid 1px red;
   height: 150px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .menu__item:not(:last-child) {
   margin-right: 50px;
@@ -71,4 +75,9 @@
   display: flex;
   align-items: center;
   margin-left: auto;
+}
+.menu__link {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
